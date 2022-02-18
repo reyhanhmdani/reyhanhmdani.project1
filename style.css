@@ -319,9 +319,10 @@ nav p:hover {
 }
 
 .isi-experience img {
-  width: 10%;
+  width: 18%;
   padding: 2%;
   margin-right: 3%;
+  height: 100%;
 
 }
 
