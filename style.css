@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
 .container {
   width: 100%;
   padding: 0;
   background: #2d325a;
+  border: 3px solid navy;
   /* box-sizing: border-box;
   display: grid; */
   /* grid-template-areas:
@@ -46,7 +47,6 @@ header {
   padding: 4%;
   background-color: #24273fa9;
 }
-
 
 #list {
   display: flex;
@@ -173,9 +173,7 @@ nav h2 {
   background-color: #24273fa9;
   margin-bottom: 20%;
   padding: 1 1%;
-  text-shadow: 1px 1px 1px rgb(243, 51, 89); ;
-  
-
+  text-shadow: 1px 1px 1px rgb(243, 51, 89);
 }
 
 #putih {
@@ -219,7 +217,6 @@ nav p:hover {
   display: flex;
   justify-content: center;
   padding: 2%;
-
 }
 
 #profil h1 {
@@ -304,8 +301,7 @@ nav p:hover {
   padding: 0.5%;
   background-color: #2d325a;
   color: aliceblue;
-  text-shadow: 1px 1px rgb(243, 51, 89)
-
+  text-shadow: 1px 1px rgb(243, 51, 89);
 }
 
 .isi-experience {
@@ -323,7 +319,6 @@ nav p:hover {
   padding: 2%;
   margin-right: 3%;
   height: 100%;
-
 }
 
 .isi-experience p {
@@ -345,11 +340,9 @@ nav p:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 #education {
-
   display: flex;
   justify-content: center;
   padding: 2%;
@@ -360,7 +353,7 @@ nav p:hover {
   padding: 0.5%;
   background-color: #2d325a;
   color: aliceblue;
-  text-shadow: 1px 1px rgb(243, 51, 89)
+  text-shadow: 1px 1px rgb(243, 51, 89);
 }
 .isi-education {
   align-items: center;
@@ -405,13 +398,12 @@ nav p:hover {
   height: 76%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0 -30px;
 }
 
 #portofolio {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
 }
 #portofolio h1 {
   box-shadow: 4px 6px rgb(243, 51, 89);
@@ -419,7 +411,7 @@ nav p:hover {
   padding: 0.5%;
   background-color: #24273fa9;
   color: aliceblue;
-  text-shadow: 1px 1px rgb(243, 51, 89)
+  text-shadow: 1px 1px rgb(243, 51, 89);
 }
 
 .container-gambar {
@@ -429,14 +421,14 @@ nav p:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 1%;
-
+  border: 3px solid navy;
 }
 
 .gambar-porto {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 18%;
+  width: 20%;
   height: 20%;
   margin: 1%;
   /* background-size: cover; */
@@ -444,13 +436,10 @@ nav p:hover {
   position: relative;
   flex-wrap: wrap;
   border: 1px solid rgb(243, 51, 89);
-  
 }
 
 .gambar-porto img {
   width: 100%;
-
- 
 }
 .hover-gambar {
   position: absolute;
@@ -472,7 +461,7 @@ nav p:hover {
 }
 .hover-gambar p {
   margin-left: 5%;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 100%;
   margin-bottom: 10%;
 }
@@ -483,7 +472,6 @@ nav p:hover {
   text-decoration: none;
   border-radius: 12px;
   padding: 2%;
-  
 }
 .hover-gambar:hover {
   opacity: 1;
@@ -495,9 +483,8 @@ nav p:hover {
 
 /* footer */
 footer {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
- 
   background-image: url(image/12.jpg);
   background-attachment: fixed;
 }
@@ -508,32 +495,31 @@ footer {
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   margin: 0% 0%;
-  
-  justify-content: center;
+  /* border: 3px solid red; */
 
+  justify-content: center;
 }
 .atas {
-  width: 100%;
+  /* width: 100%; */
   background-color: #24273fa9;
   display: flex;
   justify-content: center;
   padding: 1%;
- 
+
   color: aliceblue;
-  
 }
 .atas h2 {
- padding: 1%;
- border-radius: 12pc;
- box-shadow: 4px 6px rgb(243, 51, 89);
- border-radius: 12pc;
- background-color: #24273fa9;
+  padding: 1%;
+  border-radius: 12pc;
+  box-shadow: 4px 6px rgb(243, 51, 89);
+  border-radius: 12pc;
+  background-color: #24273fa9;
 }
 .bawah {
   padding: 2%;
   background-color: #24273fa9;
-  width: 100%;
-  display: flex;  
+  /* width: 100%; */
+  display: flex;
 }
 .icon {
   display: flex;
