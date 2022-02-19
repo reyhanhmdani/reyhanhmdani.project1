@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
   width: 100%;
   padding: 0;
@@ -31,11 +32,13 @@ header {
   position: fixed;
   width: 100%;
 }
+
 .nama {
   width: 9%;
   display: flex;
   justify-content: center;
 }
+
 .nama p {
   display: flex;
   align-items: center;
@@ -127,13 +130,13 @@ header {
 }
 
 .main2 {
-  background-color: red;
+  
   justify-content: center;
   align-items: center;
 }
 
 .main4 {
-  background-color: greenyellow;
+  
   justify-content: center;
   align-items: center;
 }
@@ -347,6 +350,7 @@ nav p:hover {
   justify-content: center;
   padding: 2%;
 }
+
 #education h1 {
   box-shadow: 4px 6px rgb(243, 51, 89);
   border-radius: 12px;
@@ -355,6 +359,7 @@ nav p:hover {
   color: aliceblue;
   text-shadow: 1px 1px rgb(243, 51, 89);
 }
+
 .isi-education {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.082);
@@ -405,6 +410,7 @@ nav p:hover {
   justify-content: center;
   padding: 2%;
 }
+
 #portofolio h1 {
   box-shadow: 4px 6px rgb(243, 51, 89);
   border-radius: 12px;
@@ -440,6 +446,7 @@ nav p:hover {
 .gambar-porto img {
   width: 100%;
 }
+
 .hover-gambar {
   position: absolute;
   opacity: 0;
@@ -452,18 +459,21 @@ nav p:hover {
   color: aliceblue;
   /* flex-wrap: wrap; */
 }
+
 .hover-gambar h2 {
   margin: 2%;
   margin-bottom: 12%;
   display: flex;
   justify-content: center;
 }
+
 .hover-gambar p {
   margin-left: 5%;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 100%;
   margin-bottom: 10%;
 }
+
 .hover-gambar a {
   font-size: 100%;
   margin-left: 5%;
@@ -472,10 +482,12 @@ nav p:hover {
   border-radius: 12px;
   padding: 2%;
 }
+
 .hover-gambar:hover {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.521);
 }
+
 .hover-gambar a:hover {
   background: #24273fea;
 }
@@ -487,6 +499,7 @@ footer {
   background-image: url(image/12.jpg);
   background-attachment: fixed;
 }
+
 .area {
   background-color: #2d325a9f;
   /* display: flex; */
@@ -498,6 +511,7 @@ footer {
 
   justify-content: center;
 }
+
 .atas {
   /* width: 100%; */
   background-color: #24273fa9;
@@ -507,6 +521,7 @@ footer {
 
   color: aliceblue;
 }
+
 .atas h2 {
   padding: 1%;
   border-radius: 12pc;
@@ -514,18 +529,31 @@ footer {
   border-radius: 12pc;
   background-color: #24273fa9;
 }
+
 .bawah {
   padding: 2%;
   background-color: #24273fa9;
   /* width: 100%; */
   display: flex;
 }
+
 .icon {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-right: 3%;
 }
+
+.icon a {
+  color: aliceblue;
+}
+
+.icon a:hover {
+  box-shadow: 1px 1px 1px 1px rgb(243, 51, 89);
+  border-radius: 12px;
+  background-color: #24273fa9;
+}
+
 .bawah h1 {
   width: 15%;
   color: aliceblue;
@@ -535,9 +563,213 @@ footer {
   font-size: 320%;
   align-items: center;
 }
+
 .bawah p {
   color: aliceblue;
   display: flex;
   align-items: center;
   font-size: 130%;
+}
+@media screen and  (max-width:425px) {
+ 
+  header {
+    /* width: 100%; */
+    /* position: static; */
+    display: flex;
+    justify-content: center;
+    background-color: #2d325acb;
+    padding: 4%;
+    position: fixed;
+    padding-left: 0;
+    align-items: center;
+  }
+ .container {
+   width: 100vh;
+   overflow: hidden;
+ } 
+ .nama{
+   display: flex;
+   width: 80%;
+   
+ }
+ 
+nav { 
+  background-position: -1380px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200%;
+
+}
+nav h2 {
+  font-size: 250%;
+}
+nav p {
+  margin-top: 80%;
+  font-size: 280%;
+}
+.main1 {
+  height: max-content;
+  width: 100%;
+  padding-bottom: 10%;
+  /* background-position: -1100px -0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(image/12.jpg);
+  background-attachment: fixed; */
+
+}
+
+#list {
+  display: none;
+}
+/* .logo, .logo2, .logo3 {
+  font-size: 60%;
+} */
+/* main1 / PROFIL*/
+#profil h1{
+  margin-top: 5% ;
+  font-size: 170%;
+  margin-bottom: 7%;
+}
+
+.gambar-text {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.kazuha-png {
+  margin: 0%;
+  width: 50%;
+}
+.text {
+  margin: 0%;
+  width: 90%;
+  margin-top: 5%;
+  text-align: center;
+}
+  /* main2/ EXPERIENCE */
+.main2 {
+  height: 100%;
+
+}
+.isi-experience {
+ padding: 0.4%;
+ margin-top: 6%;
+}
+.isi-experience img {
+  width: 30%;
+}
+/*main3/ educatuon */
+
+.main3 {
+  height: 100%;
+}
+#education {
+  margin-bottom: 10%;
+  
+}
+#education h1 {
+  margin-top: 5%;
+  
+}
+.isi-education img {
+  width: 28%;
+ 
+}
+/* main4/ */
+
+.main4 {
+  background-position: -1380px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+}
+.container-gambar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+}
+
+
+
+
+
+/* footer */
+footer {
+  
+  background-position: -1380px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.atas {
+  font-size: 50%;
+  text-align: center;
+  padding: 5%;
+  margin: 0;
+}
+.atas h2 {
+  margin-bottom: 2%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.082);
+}
+.bawah {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 10%;
+  font-size: 70%;
+  margin-bottom: 10%;
+  padding: 3%;
+  /* background-color: ; */
+}
+.icon h1 {
+  margin-right: 70%;
+}
+}
+@media screen and (max-width: 375px){
+  nav {
+     background-position: -1580px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 238%;
+  }
+  .main4 {
+    background-position: -1580px 0px;
+  }
+  footer {
+    background-position: -1580px 0px;
+  }
+}
+  
+
+@media screen and  (max-width:320px){
+nav {
+  background-position: -1880px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280%;
+  
+}
+.main4{
+  background-position: -1880px 300px;
+}
+footer {
+  background-position: -1880px 300px;
+}
 }
